@@ -1,0 +1,388 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="head">
+        <div id="header">
+            <a href="index.html">
+                <img src="logo.svg" alt="Ref-in-Depot">
+            </a>
+
+            <aside id="right-side">
+                <ul>
+                    <li><a target="_blank" href="http://test-backoffice.refindepot.com/" id="button-registration2">ÜYE
+                            GİRİŞİ</a></li>
+                    <li><a id="tr" href="#header">TÜRKÇE</a></li>
+                    <li><a id="en" href="index - en.html">ENGLISH</a></li>
+                </ul>
+                <h3 id="slogan">Akademik ve Profesyonel Yaşamın Her Aşamasında RefinDepot</h3>
+            </aside>
+        </div>
+    </div>
+
+    <nav id="nav">
+        <div id="nav-container">
+            <a href="" onclick="openmenu1()" id="mobilmenu">&#9776; MENÜ</a>
+            <ul id="nav-main">
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="aboutus.html">HAKKIMIZDA</a></li>
+                <li><a href="reflet.html">REFERANS MEKTUBU</a></li>
+                <li><a href="resume.html">ÖZGEÇMİŞ</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+            </ul>
+            <a target="_blank" href="http://test-backoffice.refindepot.com/" id="button-registration">ÜYE GİRİŞİ</a>
+        </div>
+    </nav>
+    <!--   SLIDERS    -->
+    <div id="sliders">
+        <div class="bx-wrapper">
+            <div class="bx-viewport">
+                <div class="bxslider">
+                    <div id="scontrols">
+                        <div id="scon">
+                            <img id="prev" src="control3.png" onclick="sprev()">
+                            <img id="next" src="control4.png" onclick="snext()">
+                        </div>
+                    </div>
+                    <div id="slidemain">
+                        <div id="slidepanel">
+                            <div id="slider0" class="divslider">
+                                <div class="slider-text-center">
+                                    <div class="text-box">
+                                        <span>Küresel Eğitim ve Kariyere Hazırlık</span>
+                                    </div>
+                                </div>
+                                <img src="Slider-Kutuphane.jpg" alt="">
+                            </div>
+                            
+                            <div id="slider1" class="divslider">
+                                <div class="slider-text">
+                                    <div class="text-box">
+                                        <span>Çağdaş Eğitimin Olmazsa Olmazları</span>
+                                        <p class="sliderp1">Toplum Hizmet / Akreditasyonlar
+
+                                            / Araştırma Projeleri
+
+                                            / Üniversiteye Hazırlık Süreci
+
+                                            / Zihin Sağlığı</p>
+                                    </div>
+                                </div>
+                                <img src="Slider-Ogrenciler.png" alt="">
+                            </div>
+
+                            <div id="slider2" class="divslider">
+                                <div class="slider-text">
+                                    <div class="text-box">
+                                        <span>Lise Öğrencileri İçin Staj İmkanı</span>
+                                    </div>
+                                    
+                                </div>
+                                <img src="Slider-Ofis.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--         ANASAYFA     -->
+    <!--   POP UPs-->
+    <div id="popups">
+        <div id="pop1" class="popup">
+            <h3>KARİYER GELİŞİM<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>Gerek eğitim gerekse profesyonel yaşamda sürekli olarak yenilenme ihtiyacı söz konusudur. Günümüzdeki
+                dijital olanaklar, yenilenme ihtiyacını herkes için erişilebilir yapmıştır. Sayısız online eğitim
+                imkanları ücretli ve ücretsiz çözümlerle, her alanda kendini güncelleme fırsatı RefinDepot
+                bilgilendirmelerinde mevcut. RefinDepot yönendirmeleri ile öğrenmenize ivme kazandırabilir ve
+                profesyonel ve eğitsel yaşamınızda dik bir öğrenme eğrisi sergileyebilirsiniz.</p>
+        </div>
+        <div id="pop2" class="popup">
+            <h3>ULUSLARARASI BURSLAR<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>Pek çok ülkede özellikle y.lisans ve doktora düzeyinde çeşit çeşit kısmi ve tam burslar mevcut. Bu
+                burslar hakkındaki bilgilendirmeler ve beklentiler erken yıllarda eğitim yaşamınıza doğru şekilde yön
+                verebilmeniz için birer ipucu niteliğindedir. Kısmi ve tam burslar ve ücretsiz eğitim sunan ülkeler ile
+                düşük ücretle eğitim sağlayan üniversiteler hakkında genel bilgilendirmeler RefinDepot’da</p>
+        </div>
+        <div id="pop3" class="popup">
+            <h3>MÜLAKATLAR<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>Akademik veya profesyonel başvurularınızda pek çok adımı geçtikten sonra karşınıza çıkabilecek mülakat
+                aşamasına ne kadar hazırlıklısınız? Mülakat aşamasını sizi hayata hazırlayan keyifli bir süreç olarak
+                algılarsanız er ya da geç sonuç verecektir. Mülakatlar hangi konularda kendinizi geliştirmeniz gerektiği
+                hakkında size platin ipuçları sağlar. Birkaç olumsz mülakat geçirmiş olmak sakın sizi demoralize
+                etmesin. Sürekli yenilenin ve sonuca ulaşın. RefinDepot’da Akademik ve Profesyonel mülakatlarla ilgili
+                sayısız bilgilendirmeler mevcut.</p>
+        </div>
+        <div id="pop4" class="popup">
+            <h3>EĞİTİM KURUMLARI<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>RefinDepot sistemi; öğrencilerin eğitim hayatı boyunca ihtiyaç duydukları konularda çeşitli
+                bilgilendirmeler içermektedir. Bilgilendirmeler dünyaca tanınmış, alanında otorite sayılan eğitim
+                kurumlarının kendi kaynaklarından yararlanılarak, kaynak adı ve adresi belirtilerek hazırlanmıştır.
+                Öğrencilerin bölgesel ve ülkesel farklılıkları anlamasını ve karşılaştırmalı bir bakış açısı kazanmasını
+                sağlayan bilgilendirmeler onlara sadece akademik hayatlarında değil profesyonel yaşamlarında da yol
+                gösterici bir işlev görecektir. Bu bağlamda RefinDepot, eğitim kurumlarının üzerindeki yükü hafifleten
+                ve eğitim kurumunun imajını tamamlayan dijital bir çözümdür.</p>
+        </div>
+        <div id="pop5" class="popup">
+            <h3>FİRMALAR<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>
+                RefinDepot, çalışanlarınıza, firmanızın marka imajıyla uyumlu döküman sağlamanıza yardımcı olan dijital
+                bir sistemdir. İnsan Kaynaklarının ve tüm departmanlardaki departman amirlerinin, stajyerler ve
+                personelleri için minimum zaman harcayarak firmanın kurumsal kültürünü yansıtan hizmet vermelerine
+                olanak tanır.
+            </p>
+        </div>
+        <div id="pop6" class="popup">
+            <h3>ULUSLARARASI SINAVLAR<span class="pop7" href="" onclick="closepop()">x</span></h3>
+            <p>
+                Farklı ülke ve farklı eğitim sistemlerinden gelen kişilerin bilgi düzeyini uluslararası arenada ispat
+                etmeleri
+                kendilerine sunulan fırsatların artmasına imkan tanır. RefinDepot; uluslararası sınavlar hakkında
+                bilgilendirmelerle beraber sınavlara hazırlık materyallerine de yer vererek eğitim hayatının başında
+                içerikler hakkında bilgi sahibi olunmasını ve gerekli adımların atılmasını teşvik etmektedir.
+            </p>
+        </div>
+    </div>
+
+    <div id="body-content">
+        <div id="main-content">
+            <article class="intro-article">
+                <div class="row col-12">
+                    <div class="col-12">
+                        <h3 class="testimonial-title">
+                            Lise Öğrencileri İçin Staj İmkanı ve Kariyer Hazırlığı!
+                        </h3>
+                        <!--<div class="col-3" style="float:right !important;height:45px;width:50px">
+                            <img src="DetaylarIcin.png" alt="detaylar" style="float:right !important;height:45px;width:50px">
+                        </div>-->
+                    </div>
+                </div>
+
+                <p class="firstp">
+                    <img class="part1" src="Ogrenci.png" alt="" width="auto" height="200">Covid 19’un staj hayallerinizi
+                    ertelemesine
+                    izin vermeyin! Uzaktan staj yaparak yazınızı
+                    değerlendirin.
+                    <br><br>
+                    <a href="Refindepottanelervar.html"><img src="Buton.png" alt="" width="auto" height="50"></a>
+                </p>
+            </article>
+            <br />
+
+
+
+            <article class="intro-article">
+                <div class="row">
+                    <div class="row">
+                        <h3 class="testimonial-title">
+                            Küresel Eğitim
+                            <img src="quote.png" alt="">
+                        </h3>
+                    </div>
+                    <p class="secondp" align="left">
+                        Ana hedefiniz, dünyanın her yerinde geçerli olan ve değer ifade eden bir eğitim almak olsun.
+                        Coğrafi
+                        sınırlamalarla kendisini bloke etmeyin! Çağdaş yaşamın gereklerini yerine getirmenize yardımcı
+                        olacak ve üniversiteye ve üniversite sonrası iş yaşamına giriş sürecinizi kolaylaştıracak
+                        toplumsal
+                        değer ve tutumlarınızı, bilgi ve becerilerinizi geliştirecek zengin bilgilendirmeler
+                        RefinDepot’da.
+                        <a class="purple-link" href="Refindepottanelervar.html"><strong>Devamı için
+                                tıklayın!</strong></a>
+                    </p>
+                    </p>
+                    <br />
+
+
+                    <h3 class="testimonial-title gutter larger">
+                        Her lise RefinDepot kullanmalı!
+                        <img class="title-img" src="Lise.png" alt="">
+                    </h3>
+
+                    <h3 class="testimonial-title gutter larger">
+                        <img class="title-img-left" src="Mezun.png" alt="">
+                        Her lise öğrencisinin bir RefinDepot hesabı olmalı!
+                    </h3>
+
+                </div>
+            </article>
+
+            <article class="intro-article">
+                <div class="row">
+                    <div class="row">
+                        <h3 class="testimonial-title">
+                            Dijital Referans Mektubu
+                            <img src="quote.png" alt="">
+                        </h3>
+                    </div>
+                    <p class="thirdp" align="left">
+                        <img class="part2" src="ReferansMektubu.png" alt="" width="350" height="auto">Uluslararası
+                        üniversitelerin pek çoğu başvurularda öğrenciler-
+                        den kendileri hakkında yazılmış bir referans mektubu isterler ve
+
+                        mektubunun içeriksel zenginliği adaya büyük avantaj sağlar. Re-
+                        finDepot online referans mektubu modülü ile referans mektubu-
+                        nu depolayan ve gönderilerini gerçekleştiren uluslararası dijital
+
+                        sistemlerden daha kapsamlı bir hizmeti liselerin kullanımına su-
+                        narak Türkiye’de bir ilke imza atmaktadır. <a class="purple-link"
+                            href="Refindepottanelervar.html"><strong>Devamı için tıklayın!</strong></a>
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <div id="sidebar-homepage-right" class="sidebar-homepage">
+            <div id="sectionf">
+                <ul id="nav-sidebar">
+                    <li>
+                        <a href="" onclick="openp4()">
+                            <figure><img src="1.png" alt=""></figure>
+                            <div>
+                                <strong class="title-nav-sidebar">EĞİTİM KURUMLARI</strong>
+                                <p>
+                                    Kapsamlı Eğitsel Çözümler
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" onclick="openp5()">
+                            <figure><img src="2.png" alt=""></figure>
+                            <div>
+                                <strong class="title-nav-sidebar">FİRMALAR</strong>
+                                <p>
+                                    Marka İmajı ile Uyumlu Çözümler
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" onclick="openp1()">
+                            <figure>
+                                <img src="3.png" alt="">
+                            </figure>
+                            <div>
+                                <strong class="title-nav-sidebar">KARİYER GELİŞİM</strong>
+                                <p>
+                                    Yaşam boyu gelişimi keyifli bir serüvene dönüştürün
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" onclick="openp2()">
+                            <figure>
+                                <img src="4.png" alt="">
+                            </figure>
+                            <div>
+                                <strong class="title-nav-sidebar">ULUSLARARASI BURSLAR</strong>
+                                <p>
+                                    Çeşitli ülkelerde kısmi ve tam burslar
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" onclick="openp3()">
+                            <figure><img src="5.png" alt=""></figure>
+                            <div>
+                                <strong class="title-nav-sidebar">MÜLAKATLAR</strong>
+                                <p>
+                                    Mülakat er ya da geç sonuç verir!
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" onclick="openp6()">
+                            <figure><img src="6.png" alt=""></figure>
+                            <div>
+                                <strong class="title-nav-sidebar">ULUSLARARASI SINAVLAR</strong>
+                                <p>
+                                    Kendinizi uluslararası arenada ispatlayın
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" onclick="">
+                            <figure><img src="7.png" alt=""></figure>
+                            <div>
+                                <strong class="title-nav-sidebar">İLETİŞİM</strong>
+                                <p>
+                                    Teknik ,Kurumsal iletişim
+                                </p>
+                            </div>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <article id="intro-principal1" class="static-page">
+            <h3 id="title-principal"><strong>Prof.Dr. Hakan Yaralı /</strong> Hacettepe Üniversitesi Tıp Fakültesi</h3>
+            <figure>
+                <img id="yarali" src="hakan-yarali.png" alt="">
+            </figure>
+
+            <div id="content-principal">
+                <p>
+                    Hacettepe Üniversitesi Tıp Fakültesi, hocası ve Türk Tıbbına yön veren 100 Türk arasında yer alan
+                    Prof. Yaralı'ya göre akademisyenlerin ciddi zamanını alan referans mektubu yazımı konusunda
+                    RefinDepot tarafından verilen hizmet büyük bir ihtiyaca cevap vermektedir.
+                </p>
+                <p style="font-size:25px;">
+                    <a class="comment-link" href="academician.html">
+                        <img id="comment" src="speak.png" alt="">
+                        Profesyonellerden RefinDepot Yorumları &gt;&gt;
+                    </a>
+                </p>
+            </div>
+        </article>
+    </div>
+
+    <!--      FOOTER           -->
+    <footer id="main-footer">
+        <!--<div id="blur-top">
+            <a href="#header" id="link-back-top">YUKARI <img src="arrow-top.png" alt=""></a>
+        </div>-->
+        <div id="footer-copyright">
+            <div id="footer-copyright-content">
+                <a href="index.html" id="logo-footer">
+                    <img src="logo-footer.svg" alt="Ref-in-Depot">
+                </a>
+
+                <ul id="nav-footer">
+                    <li class="active">
+                        <a href="index.html">AnaSayfa</a>
+                    </li>
+                    <li>
+                        <a href="reflet.html">Referans Mektubu</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Özgeçmiş</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+
+                <p id="text-copyright" style="text-align:right;">Copyright © 2019. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
